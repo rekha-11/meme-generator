@@ -50,7 +50,7 @@ export default function Meme() {
                 <button>Gen</button>
             </form>
             <div className="meme">
-                    <img src= {Rimg.url}/>
+                    <img src= {Rimg.url} alt="Loading Failed"/>
                     <h2 className="top">{Top}</h2>
                     <h2 className="bottom">{Bottom}</h2>
                 </div>
